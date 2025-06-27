@@ -1,4 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Pulsate Waitlist
+
+A minimalist, academic-style 3-page website for Pulsate with Supabase integration for email collection.
+
+## Setup
+
+1. **Install dependencies:**
+   ```bash
+   npm install
+   ```
+
+2. **Set up Supabase:**
+   - Create a Supabase project at [supabase.com](https://supabase.com)
+   - Create a table named `waitlist` with columns:
+     - `email` (TEXT)
+     - `created_at` (TIMESTAMPTZ, default: `now()`)
+   - Get your project URL and anon key from the API settings
+
+3. **Environment variables:**
+   Create a `.env.local` file in the root directory:
+   ```
+   NEXT_PUBLIC_SUPABASE_URL=your_supabase_project_url_here
+   NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key_here
+   ```
+
+4. **Run the development server:**
+   ```bash
+   npm run dev
+   ```
+
+## Pages
+
+- **Home** (`/`): Main landing page with waitlist form
+- **Method** (`/method`): Information about Pulsate's approach
+- **Careers** (`/careers`): Job opportunities and contact
+
+## Features
+
+- Static, minimalist design with no animations
+- Supabase integration for email collection
+- Responsive navigation
+- Clean typography using Georgia serif font
+- Academic document aesthetic
+
+## Tech Stack
+
+- Next.js 15
+- React 19
+- TypeScript
+- Supabase (database)
+- CSS (no frameworks)
 
 ## Getting Started
 
