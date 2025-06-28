@@ -56,7 +56,7 @@ export default function HomePage() {
           <div className="nav-links">
             <Link href="/" className="active">Home</Link>
             <Link href="/method">Method</Link>
-            <Link href="/careers">Careers</Link>
+            <Link href="/careers">Contact</Link>
           </div>
         </div>
       </nav>

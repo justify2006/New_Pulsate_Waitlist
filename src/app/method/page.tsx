@@ -9,7 +9,7 @@ export default function MethodPage() {
           <div className="nav-links">
             <Link href="/">Home</Link>
             <Link href="/method" className="active">Method</Link>
-            <Link href="/careers">Careers</Link>
+            <Link href="/careers">Contact</Link>
           </div>
         </div>
       </nav>
