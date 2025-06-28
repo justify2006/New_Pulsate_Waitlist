@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { createClient } from '@supabase/supabase-js';
 
 // Initialize Supabase client
@@ -53,9 +54,9 @@ export default function HomePage() {
         <div className="nav-content">
           <div className="nav-brand">Pulsate</div>
           <div className="nav-links">
-            <a href="/" className="active">Home</a>
-            <a href="/method">Method</a>
-            <a href="/careers">Careers</a>
+            <Link href="/" className="active">Home</Link>
+            <Link href="/method">Method</Link>
+            <Link href="/careers">Careers</Link>
           </div>
         </div>
       </nav>

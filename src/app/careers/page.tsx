@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function CareersPage() {
   return (
     <div>
@@ -5,9 +7,9 @@ export default function CareersPage() {
         <div className="nav-content">
           <div className="nav-brand">Pulsate</div>
           <div className="nav-links">
-            <a href="/">Home</a>
-            <a href="/method">Method</a>
-            <a href="/careers" className="active">Careers</a>
+            <Link href="/">Home</Link>
+            <Link href="/method">Method</Link>
+            <Link href="/careers" className="active">Careers</Link>
           </div>
         </div>
       </nav>
