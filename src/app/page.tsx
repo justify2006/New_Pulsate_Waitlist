@@ -53,6 +53,7 @@ export default function HomePage() {
         <div className="nav-content">
           <div className="nav-brand">Pulsate</div>
           <div className="nav-links">
+            <a href="/" className="active">Home</a>
             <a href="/method">Method</a>
             <a href="/careers">Careers</a>
           </div>

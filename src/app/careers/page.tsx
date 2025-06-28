@@ -7,6 +7,7 @@ export default function CareersPage() {
           <div className="nav-links">
             <a href="/">Home</a>
             <a href="/method">Method</a>
+            <a href="/careers" className="active">Careers</a>
           </div>
         </div>
       </nav>
@@ -15,13 +16,12 @@ export default function CareersPage() {
         <h1>Careers</h1>
         
         <p>
-          We are looking for a small number of exceptional people to solve a very hard problem. 
-          If that's you, email us.
+        We are looking for a small number of exceptional people to help us build at the intersection of artificial intelligence and investment analysis. 
         </p>
 
-        <a href="mailto:careers@pulsate.ai">
-          careers@pulsate.ai
-        </a>
+        <p>
+        If you are interested in joining us, please email us at <a href="mailto:thepulsate@gmail.com">thepulsate@gmail.com</a>.
+        </p>    
       </div>
     </div>
   );
